@@ -1,3 +1,11 @@
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  } 
+  @-ms-viewport {
+    width: device-width ;
+  } 
+        
         body {
             background: linear-gradient(-45deg, #ff693c, #ee7752, #e73c7e, #23a6d5, #23d5ab, #1cf7c3);
             background-size: 400% 400%;
@@ -46,7 +54,7 @@
         }
         
         .logo {
-            color: rgb(228, 228, 228);
+            color: rgb(228, 3228, 228);
             text-transform: uppercase;
             letter-spacing: 2px;
             font-size: 20px;
@@ -378,10 +386,10 @@
             border-radius: 30px;
             height: auto;
             text-align: center;
-            margin: 150px;
+            margin: 90px;
             padding: -5px;
         }
-        
+    
         .contact_text_message {
             font-family: 'Press Start 2P', cursive;
             color: white;
@@ -495,7 +503,7 @@
             height: 100px;
             width: 100px;
             opacity: 0.2;
-            border: 3px solid rgb(255, 255, 255);
+            border: 3px solid rgb(1, 11, 46);
             display: none;
             justify-content: center;
             align-items: center;
@@ -507,7 +515,7 @@
             width: 110px;
             height: 110px;
         }
-        
+
         @keyframes btn {
             0% {
                 background-position: 120px;
