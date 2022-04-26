@@ -36,6 +36,7 @@
         }
         
         nav {
+            /* margin-top: 5px;*/
             display: flex;
             justify-content: space-around;
             align-items: center;
@@ -489,12 +490,13 @@
             cursor: pointer;
             height: 100px;
             width: 100px;
-            background: white;
             opacity: 0.2;
-            border: 3px solid rgb(78, 78, 78);
+            border: 3px solid rgb(255, 255, 255);
             display: none;
             justify-content: center;
             align-items: center;
+            background: url('../images/arrow-background.png');
+            background-size: cover;
         }
         
         .go-top-btn img {
@@ -507,6 +509,11 @@
             width: 120px;
             opacity: 1;
             height: 120px;
+        }
+        
+        .go-top-btn:active {
+            background-size: 170px;
+            background-position-x: 1px;
         }
         
         @keyframes test {
