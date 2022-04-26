@@ -34,7 +34,6 @@ function checkHeight() {
     }
 }
 goTopBtn.addEventListener('click', () => {
-
     window.scrollTo({
         top: 0,
         behavior: "smooth"
@@ -42,3 +41,15 @@ goTopBtn.addEventListener('click', () => {
     })
 })
 navSlide();
+
+function copyText() {
+
+    /* Copy text into clipboard */
+    navigator.clipboard.writeText("0782042828 ");
+    alert("Numero copier ");
+}
+
+function emailcopy() {
+    navigator.clipboard.writeText("mariusanefs@yahoo.com ");
+    alert("addresse email copier ");
+}
