@@ -54,7 +54,6 @@
         img {
             max-width: 60%;
             max-height: 60%;
-            box-shadow: 0 19px 17px rgba(0, 0, 0, 0.12), 0 19px 17px rgba(0, 0, 0, 0.24);
         }
         
         .nav-links {
@@ -83,6 +82,7 @@
         .nav-links a:hover {
             color: #0fb8ad;
             transition: 0.4s;
+            font-size: 18px;
         }
         
         .nav-links aa {}
@@ -215,6 +215,14 @@
         .container li {
             display: block;
             margin: 99px;
+        }
+        
+        .link_map_cabinetn1 img {
+            box-shadow: 0 19px 17px rgba(0, 0, 0, 0.12), 0 19px 17px rgba(0, 0, 0, 0.24);
+        }
+        
+        .link_map_cabinetn2 img {
+            box-shadow: 0 19px 17px rgba(0, 0, 0, 0.12), 0 19px 17px rgba(0, 0, 0, 0.24);
         }
         
         .link_map_cabinetn1 {
@@ -469,4 +477,43 @@
             text-shadow: 2px 2px 6px black;
             -webkit-text-stroke: 0.1;
             -webkit-text-stroke-color: rgb(180, 180, 180);
+        }
+        
+        .go-top-btn {
+            position: fixed;
+            bottom: 35px;
+            right: 35px;
+            border-radius: 50%;
+            cursor: pointer;
+            height: 100px;
+            width: 100px;
+            background: white;
+            border: 3px solid #333;
+            display: none;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .go-top-btn img {
+            width: 50px;
+            height: 50px;
+        }
+        
+        .go-top-btn:hover {
+            animation: test 1s
+        }
+        
+        @keyframes test {
+            0% {
+                height: 100px;
+                width: 100px;
+            }
+            40% {
+                height: 110px;
+                width: 110px;
+            }
+            100% {
+                width: 120px;
+                height: 120px;
+            }
         }
